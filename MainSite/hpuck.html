@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма для рассылки</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="/CSS/StyleMain.css" rel="stylesheet">
+</head>
+<body>
+<div class="page">
+
+    <!-- /.Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-brand">
+                     <a class="homepage" href="MainPage.html">GoodSportGoods</a>
+                </div>
+
+                <div class="header-logo">
+                    <img src="/IMG/Sport_balls.svg" alt="">
+                </div>
+
+                <nav class="header-nav">
+                    <a class="header-nav-link" href="MainPage.html">О компании</a>
+                    <a class="header-nav-link" href="TablePage.html">Каталог</a>
+                    <a class="header-nav-link" href="FormPage.html">Рассылка со скидками</a>
+                </nav>
+            </div>
+        </div> <!-- /.Container -->
+    </header>
+
+     <table class="alg" width=100% border=1>
+  <tr><td align="center">ТОВАР</td><td align="center">ЦЕНА ЗА 1шт</td><td align="center">КОЛИЧЕСТВО</td><td align="center">ЦЕНА ЗА ВСЁ</td></tr>
+
+  <tr>
+   <td align="center"> NHL <center>  </center></td>
+   <td align="center"><b id="cena_1">2000</b> руб.</td>
+   <td align="center"><b onclick="plus(1)">[+]</b> <b id="col_1">0</b> шт. <b onclick="minus(1)">[-]</b></td>
+   <td align="center"><b id="cenap_1">0</b> руб.</td>
+  </tr>
+
+  <tr>
+   <td align="center"> KHL <center></center></td>
+   <td align="center"><b id="cena_2">1000</b> руб.</td>
+   <td align="center"><b onclick="plus(2)">[+]</b> <b id="col_2">0</b> шт. <b onclick="minus(2)">[-]</b></td>
+   <td align="center"><b id="cenap_2">0</b> руб.</td>
+  </tr>
+
+  <tr>
+   <td align="center"> Любительские  <center>  </center></td>
+   <td align="center"><b id="cena_3">300</b> руб.</td>
+   <td align="center"><b onclick="plus(3)">[+]</b> <b id="col_3">0</b> шт. <b onclick="minus(3)">[-]</b></td>
+   <td align="center"><b id="cenap_3">0</b> руб.</td>
+  </tr>
+ </table>
+
+    <p class = "final_result"> ИТОГО:<b id="itog">0</b> руб. &nbsp; &nbsp; &nbsp; &nbsp; <a href = "Zakaz.html">Закажите здесь</a></p>
+
+
+     <! Footer *>
+    <footer class="footer">
+        <div class="container">
+            <div class="contacts">
+               <a class="contacts-link" href="mailto:info@dmitry@gmail.com ">
+               <img class="contacts-icon" src="IMG/mail.svg" alt="">infooursite@gmail.com
+               </a>
+               <a class="contacts-link" href="tel:+37125521551">
+               <img class="contacts-icon" src="IMG/tel.svg" alt="">+7 904 027-28-29
+               </a>
+                <a class ="contacts-link" href="/HTML/DOMJS.html" target="_blank">Дополнительные задания</a>
+            </div>
+        </div>
+    </footer>
+</div>

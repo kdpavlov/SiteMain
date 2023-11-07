@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма для заказа</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="/CSS/StyleMain.css" rel="stylesheet">
+</head>
+<body>
+<div class="page">
+
+    <!-- /.Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-brand">
+                     <a name = "top" class="homepage" href="MainPage.html">GoodSportGoods</a>
+                </div>
+
+                <div class="header-logo">
+                    <img src="/IMG/Sport_balls.svg" alt="">
+                </div>
+
+                <nav class="header-nav">
+                    <a class="header-nav-link active" href="MainPage.html">О компании</a>
+                    <a class="header-nav-link" href="TablePage.html">Каталог</a>
+                    <a class="header-nav-link" href="FormPage.html">Рассылка со скидками</a>
+                </nav>
+            </div>
+        </div> <!-- /.Container -->
+    </header>
+
+<table id="white" class="zakaz">
+    <tr>
+        <td>
+         <form action="https://www.google.com/search?" method="get" target="_blank">
+        <div>
+            <p>Ваши имя и фамилия &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input name="name" type="text" value="Ваше имя"></p>
+        </div>
+        <div>
+            <p>
+                Электронная почта: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" id="email" value="YourEmail@gmail.com">
+            </p>
+        </div>
+             <div>
+                 <p>Контактный номер телефона: &nbsp;
+                 <input type="tel" id="tel" name="tel" value="+7..."></p>
+             </div>
+        <div>
+            <p>На какую дату оформить доставку? &nbsp;&nbsp;
+            <Input type="date" name="zapis" id="zapis" value="2023-11-08"></p>
+        </div>
+        <div>
+            <p>Выберите вид спорта: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <select name="languages">
+                 <OPTION value="Футбол">Футбол</OPTION>
+                 <OPTION value="Баскетбол">Баскетбол</OPTION>
+                 <OPTION value="Хоккей">Хоккей</OPTION>
+             </select>
+            </p>
+        </div>
+        <div>
+            <p> Введите название товара:
+                    <br>
+                    <TEXTAREA cols=20 name="textarea" rows=2></TEXTAREA>
+            </p>
+        </div>
+        <div>
+            <p>Количество:<br> <input name="amount" size=10 type="Number" value="0"></p>
+        </div>
+    <button>Оформить заказ</button>
+ <input  type="hidden" name="q" id="say" value="Заказ успешно создан!" />
+        </td>
+    </tr>
+<tr>
+</table>
+
+
+    <! Footer *>
+    <footer class="footer">
+        <div class="container">
+            <div class="contacts">
+               <a class="contacts-link" href="mailto:info@dmitry@gmail.com ">
+               <img class="contacts-icon" src="IMG/mail.svg" alt="">infooursite@gmail.com
+               </a>
+               <a class="contacts-link" href="tel:+37125521551">
+               <img class="contacts-icon" src="IMG/tel.svg" alt="">+7 904 027-28-29
+               </a>
+                <a class ="contacts-link" href="/HTML/DOMJS.html" target="_blank">Дополнительные задания</a>
+                <a class = "inside-a" href="#top">Наверх</a>
+            </div>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>
