@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <title>Магазин</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" rel="stylesheet">
+    <link rel="stylesheet" href="stylefortable.css">
+</head>
+<body>
+    <!-- /.Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-brand">
+                </div>
+
+                <nav class="header-nav">
+                    <a class="header-nav-link" href="tablehome.html">Таблица</a>
+                    <a class="header-nav-link active" href="store.html">Магазин</a>
+                    <a class="header-nav-link" href="carousel.html">Карусель</a>
+                </nav>
+            </div>
+        </div> <!-- /.Container -->
+    </header>
+
+<div class="container">
+
+        <div class="card-body">
+            <h5 class='card-title text-center'>Баскетбольные кроссовки</h5>
+            <input type="radio" id="price" name="sort"  onchange="sort()"> Сортировка по цене  </input>
+             <input type="radio" id="title" name="sort"  checked onchange="sort()" > Сортировка по алфавиту </input>
+            <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                <input name="q" type="hidden" value="search">
+                <ul class="d-flex flex-row justify-content-around flex-wrap bg-light" id="node_for_insert">
+                </ul>
+                <input class="btn btn-primary" type="Submit" value="В корзину">
+            </form>
+        </div>
+
+</div>
+
+</body>
+<script src="storescript.js"></script>
+</html>
