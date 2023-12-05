@@ -472,3 +472,7 @@ figcaption {
     width: 72vh;
     }
 }
+
+.card-body {
+    color: white;
+}

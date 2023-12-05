@@ -69,7 +69,7 @@ body {
 .header {
     padding: 1rem 0;
     margin-bottom: 20px;
-    background: #2B7DED;
+    background:;
 }
 
 .header-inner {
@@ -131,4 +131,18 @@ body {
 }
 .carousel-inner > .item > img {
   margin: 0 auto;
+}
+.logo{
+height: 50px;
+}
+
+.page {
+    min-height: 100%;
+    overflow-y: clip;
+    position: relative;
+    overflow: hidden;
+
+    background: #000 url("https://t4.ftcdn.net/jpg/03/90/66/17/360_F_390661775_BY3omV6LTS2064GbghxN9MBxgp4oV67W.jpg") center;
+    background-size: cover;
+    background-height: 100%
 }
